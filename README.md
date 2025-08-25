@@ -4,14 +4,15 @@ Citi Bike stations cover NYC boroughs and are widely used by both locals and tou
 
 This project analyzes Citi Bike trip data across NYC to uncover usage patterns, user behavior, and borough-specific performance.
 
+---
+
 **How is this helpful?**
 
 - The city can make decisions on popular places to invest in
-
 - Understand the rider's behavior and patterns
-
 - Develop marketing campaigns towards local residents
 
+![Dashboard](powerbi_dashboard.png)
 
 ## Data Information
 
@@ -22,9 +23,7 @@ For the sake of time, `.parquet` files from January to June 2025 were saved loca
 The steps taken were:
 
 1. Data manipulation
-
 2. Handling outliers
-
 3. Adding new features
 
 ## Data Analysis
@@ -37,17 +36,13 @@ The distributions of trip duration and distance allowed the use of correct stati
 
 ## Dashboard
 
-Modeling the data and designing the dashboard was difficult and required several iterations. However, using the objective: **Understand each borough and rider's behavior**, allowed me to focus on the important visuals and remove unnecessary information.
+**Objective:** Understand each borough and rider's behavior
 
-Below is a screenshot of the dashboard created in Power BI. This dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements.
+Modeling the data and designing the dashboard was difficult and required several iterations. 
 
-![Dashboard](powerbi_dashboard.png)
-
-Hovering over the **Active Regions** and the map, gives more information of each region using the tooltip option in Power BI.
+The dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements.
 
 ## Next Steps
 1. Automating the dashboard to update as new data is uploaded by Citi Bike
-
 2. Deploy an app that can be used by city officials
-
-3. Gain access to rider information
+3. Gain access to more information on users, boroughs, and bike stations
