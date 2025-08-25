@@ -4,8 +4,6 @@ Citi Bike stations cover NYC boroughs and are widely used by both locals and tou
 
 This project analyzes Citi Bike trip data across NYC to uncover usage patterns, user behavior, and borough-specific performance.
 
----
-
 **How is this helpful?**
 
 - The city can make decisions on popular places to invest in
