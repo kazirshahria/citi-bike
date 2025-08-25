@@ -1,11 +1,53 @@
-# 🚲 Citi Bike Ridership Project
+# 🚲 NYC Citi Bike Project
 
-The Citi Bike stations in NYC are spread across the five boroughs and easily accessible for locals or tourists. There are thousands of trips happening everyday, some people are going to work, working out, riding with friends, exploring the city, and more. 
+Citi Bike stations cover NYC boroughs and are widely used by both locals and tourists. Thousands of daily trips support commuting, exercise, leisure, and city exploration. 
 
-This project is to analyze trips, gather insights, and understand borough performance.
+This project analyzes Citi Bike trip data across NYC to uncover usage patterns, user behavior, and borough-specific performance.
 
 **How is this helpful?**
 
-- The city can make decisions on popular places to invest into
+- The city can make decisions on popular places to invest in
+
 - Understand the rider's behavior and patterns
+
 - Develop marketing campaigns towards local residents
+
+
+## Data Information
+
+The dataset is updated regularly on an AWS S3 bucket.
+
+For the sake of time, `.parquet` files from January to June 2025 were saved locally, and the files were merged using Python. The data preprocessing and engineering are stored in `notebook/01_data_preparation.ipynb`. 
+
+The steps taken were:
+
+1. Data manipulation
+
+2. Handling outliers
+
+3. Adding new features
+
+## Data Analysis
+
+Analyzing the data enabled me to comprehend the large dataset and design a dashboard in Power BI. The analyses can be found in `notebook/02_data_analysis.ipynb`. 
+
+There's information on the boroughs supporting Citi Bikes and insights on rider behavior. 
+
+The distributions of trip duration and distance allowed the use of correct statistics, such as using the median instead of the mean. 
+
+## Dashboard
+
+Modeling the data and designing the dashboard was difficult and required several iterations. However, using the objective: **Understand each borough and rider's behavior**, allowed me to focus on the important visuals and remove unnecessary information.
+
+Below is a screenshot of the dashboard created in Power BI. This dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements.
+
+![Dashboard](powerbi_dashboard.png)
+
+Hovering over the **Active Regions** and the map, gives more information of each region using the tooltip option in Power BI.
+
+## Next Steps
+1. Automating the dashboard to update as new data is uploaded by Citi Bike
+
+2. Deploy an app that can be used by city officials
+
+3. Gain access to rider information
