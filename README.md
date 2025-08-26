@@ -10,23 +10,17 @@ This project analyzes Citi Bike trip data across NYC to uncover usage patterns, 
 - Understand the rider's behavior and patterns
 - Develop marketing campaigns towards local residents
 
-![Dashboard](powerbi_dashboard.png)
-
 ## Data Information
 
 The dataset is updated regularly on an AWS S3 bucket.
 
-For the sake of time, `.parquet` files from January to June 2025 were saved locally, and the files were merged using Python. The data preprocessing and engineering are stored in `notebook/01_data_preparation.ipynb`. 
+For the sake of time, files from January to June 2025 were used.
 
-The steps taken were:
-
-1. Data manipulation
-2. Handling outliers
-3. Adding new features
+![Workflow](workflow_diagram.png)
 
 ## Data Analysis
 
-Analyzing the data enabled me to comprehend the large dataset and design a dashboard in Power BI. The analyses can be found in `notebook/02_data_analysis.ipynb`. 
+Analyzing the data enabled me to comprehend the large dataset and design a dashboard in Power BI. The analyses can be found in the `notebook` folder.
 
 There's information on the boroughs supporting Citi Bikes and insights on rider behavior. 
 
@@ -39,6 +33,8 @@ The distributions of trip duration and distance allowed the use of correct stati
 Modeling the data and designing the dashboard was difficult and required several iterations. 
 
 The dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements.
+
+![Dashboard](powerbi_dashboard.png)
 
 ## Next Steps
 1. Automating the dashboard to update as new data is uploaded by Citi Bike
