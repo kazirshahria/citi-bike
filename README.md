@@ -16,7 +16,7 @@ The dataset is updated regularly on an AWS S3 bucket.
 
 For the sake of time, files from January to June 2025 were used.
 
-![Workflow](workflow_diagram.png)
+<img src="workflow_diagram.png" alt="Workflow" width="300"/>
 
 ## Data Analysis
 
