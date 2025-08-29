@@ -1,42 +1,48 @@
-# 🚲 NYC Citi Bike Project
+# Citi Bike Dashboard
 
-Citi Bike stations cover NYC boroughs and are widely used by both locals and tourists. Thousands of daily trips support commuting, exercise, leisure, and city exploration. 
+## A dashboard on the Citi Bike rides from Jan-Jun 2025
 
-This project analyzes Citi Bike trip data across NYC to uncover usage patterns, user behavior, and borough-specific performance.
+The Citi Bike provides free and accessible data on trips and stations at [**Citi Bike - System Data**](https://citibikenyc.com/system-data).
 
-**How is this helpful?**
+There are 5 boroughs in NYC and 4/5 that support the use of Citi bikes. These boroughs are:
 
-- The city can make decisions on popular places to invest in
-- Understand the rider's behavior and patterns
-- Develop marketing campaigns towards local residents
+- Manhattan
+- Brooklyn
+- Queens
+- The Bronx
 
-## Data Information
+With this dashboard, state members, city officials, and company stakeholders are able to adjust bike funding, optimize marketing campaigns, and understand its users.
 
-The dataset is updated regularly on an AWS S3 bucket.
+## Project Workflow
 
-For the sake of time, files from January to June 2025 were used.
+This is a diagram created in [**Lucidchart**](https://www.lucidchart.com/) that shows the workflow before building the dashboard:
 
-<img src="workflow_diagram.png" alt="Workflow" width="700"/>
+<div align="center">
+  <img src="workflow_diagram.png" alt="Workflow" width="300"/>
+</div>
 
-## Data Analysis
+## Interesting Findings
 
-Analyzing the data enabled me to comprehend the large dataset and design a dashboard in Power BI. The analyses can be found in the `notebook` folder.
+- About 90% of rides have a membership with Citi Bike
+- The Bronx has more electric rides compared to the other boroughs
+- The popular ride hours are 7-9am and 4-7pm
+- On average, casual users travel further and spend more time on the bikes
 
-There's information on the boroughs supporting Citi Bikes and insights on rider behavior. 
+## Power BI Dashboard
 
-The distributions of trip duration and distance allowed the use of correct statistics, such as using the median instead of the mean. 
+The dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements:
 
-## Dashboard
+<div align="center">
+  <img src="powerbi_dashboard.png" alt="Dashboard" width="400"/>
+</div>
 
-**Objective:** Understand each borough and rider's behavior
 
-Modeling the data and designing the dashboard was difficult and required several iterations. 
+**Visuals With a Tooltip**
 
-The dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements.
-
-![Dashboard](powerbi_dashboard.png)
+- Active Regions
+- Map
 
 ## Next Steps
-1. Automating the dashboard to update as new data is uploaded by Citi Bike
-2. Deploy an app that can be used by city officials
-3. Gain access to more information on users, boroughs, and bike stations
+1. Automating the dashboard to update as new data is uploaded
+2. Deploy an app
+3. Gain access to more information on users and bike stations
