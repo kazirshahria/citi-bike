@@ -33,7 +33,7 @@ This is a diagram created in [**Lucidchart**](https://www.lucidchart.com/) that 
 The dashboard provides city officials, analysts, and other stakeholders with an intuitive way to explore usage patterns, identify high-performing areas, and make data-driven decisions for future investments and service improvements:
 
 <div align="center">
-  <img src="powerbi_dashboard.png" alt="Dashboard" width="500"/>
+  <img src="powerbi_dashboard.png" alt="Dashboard" width="700"/>
 </div>
 
 
