@@ -37,7 +37,7 @@ The dashboard provides city officials, analysts, and other stakeholders with an 
 </div>
 
 
-**Visuals With a Tooltip**
+### Visuals With a Tooltip
 
 - Active Regions
 - Map
